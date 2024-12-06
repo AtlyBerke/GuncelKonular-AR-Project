@@ -71,6 +71,6 @@ Projenin Deployment Diyagramı ->
 ![Deployment Diagram](<Hafta 6/Projenin Deployment Diyagramı/Deployment_diagram.png>)
 
 ## 7. Hafta: Projenin Kodlanması ve Test Edilmesi
-Projenin Kaynak Kodları -> 
+Projenin Kaynak Kodları -> https://github.com/AtlyBerke/GuncelKonular-AR-Project/tree/main/Hafta%207
 
 
