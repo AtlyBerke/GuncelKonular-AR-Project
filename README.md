@@ -1,7 +1,7 @@
 # GuncelKonular-AR-Project
 KAREKÜP MOBİL UYGULAMASI
 
-1. Hafta: Proje Giriş ve Hedef Belirleme
+# 1. Hafta: Proje Giriş ve Hedef Belirleme
 Hedefler:
 
 Proje için kullanılacak teknolojilerin ve araçların belirlenmesi.
@@ -15,21 +15,21 @@ Doğru cevabı bulamazsa ek hak için belli bir süre beklemesi gerekiyor ya da 
 Bu sayede SaaS mantığı projeye entegre olacak.
 
 
-2. Hafta: Proje İçin Github Dosyasının Oluşturulması ve Projenin Trello Space'inin Oluşturulması
+# 2. Hafta: Proje İçin Github Dosyasının Oluşturulması ve Projenin Trello Space'inin Oluşturulması
 Projenin Github Dosyası       -> https://github.com/AtlyBerke/GuncelKonular-AR-Project
 Projenin Trello Space Dosyası -> https://trello.com/b/Ld9OTq0y/ar-projesi-vize-yazilim-muh-guncel-konular
 
-3. Hafta: Projenin Gereksinim Analizi ve Proje Sunum Dosyası
+# 3. Hafta: Projenin Gereksinim Analizi ve Proje Sunum Dosyası
 Projenin Gereksinim Analizi -> 
 [Gereksinim Analizi](<Hafta 3/Projenin Gereksinim Analizi/KareKüp_Gereksinim_Analizi.docx>)
 
 Projenin Çocuklar İçin Sunum Hali -> 
 Hafta 3/Projenin Gereksinim Analiz Sunumu - Çocuklar İçin/Pixel Gereksinim Analizi Sunumu-KareKüp Uygulaması.pdf
 
-4. Hafta: Projenin SWOT Analizi Use Case ve Activity Diyagramlarının Oluşturulması
+# 4. Hafta: Projenin SWOT Analizi Use Case ve Activity Diyagramlarının Oluşturulması
 
 Projenin SWOT Analizi ->
- 
+
 [SWOT Analysis](<Hafta 4/Projenin Swot Analizi/SWOT_Analizi.pdf>)
 
 Projenin Use Case Diyagramı ->
@@ -40,7 +40,7 @@ Projenin Activity Diyagramı ->
 
 ![Activity Diagram](<Hafta 4/Projenin Activity Diyagramı/Activitiy_Diagram.png>)
 
-5. Hafta: Projenin UML ER ve State Diyagramlarının Oluşturulması
+# 5. Hafta: Projenin UML ER ve State Diyagramlarının Oluşturulması
 
 Projenin UML Diyagramı ->
 
@@ -54,7 +54,7 @@ Projenin State Diyagramı ->
 
 ![State Diagram](<Hafta 5/Projenin State Diyagramı/State_Diagram.png>)
 
-6. Hafta: Projenin Sequence Object Deployment Diyagramlarının Oluşturulması
+# 6. Hafta: Projenin Sequence Object Deployment Diyagramlarının Oluşturulması
 
 Projenin Sequence Diyagramı -> 
 
@@ -70,7 +70,7 @@ Projenin Deployment Diyagramı ->
 
 ![Deployment Diagram](<Hafta 6/Projenin Deployment Diyagramı/Deployment_diagram.png>)
 
-7. Hafta: Projenin Kodlanması ve Test Edilmesi
+## 7. Hafta: Projenin Kodlanması ve Test Edilmesi
 Projenin Kaynak Kodları -> 
 
 
