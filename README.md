@@ -22,4 +22,3 @@ Projenin Trello Space Dosyası -> https://trello.com/b/Ld9OTq0y/ar-projesi-vize-
 3.Hafta: Projenin Gereksinim Analizi ve Proje Sunum Dosyası
 Projenin Gereksinim Analizi -> 
 
- 
