@@ -20,22 +20,30 @@ Projenin Github Dosyası       -> https://github.com/AtlyBerke/GuncelKonular-AR-
 Projenin Trello Space Dosyası -> https://trello.com/b/Ld9OTq0y/ar-projesi-vize-yazilim-muh-guncel-konular
 
 3. Hafta: Projenin Gereksinim Analizi ve Proje Sunum Dosyası
-Projenin Gereksinim Analizi -> [Gereksinim Analizi](<Hafta 3/Projenin Gereksinim Analizi/KareKüp_Gereksinim_Analizi.docx>)
-Projenin Çocuklar İçin Sunum Hali -> Hafta 3/Projenin Gereksinim Analiz Sunumu - Çocuklar İçin/Pixel Gereksinim Analizi Sunumu-KareKüp Uygulaması.pdf
+Projenin Gereksinim Analizi -> 
+[Gereksinim Analizi](<Hafta 3/Projenin Gereksinim Analizi/KareKüp_Gereksinim_Analizi.docx>)
+
+Projenin Çocuklar İçin Sunum Hali -> 
+Hafta 3/Projenin Gereksinim Analiz Sunumu - Çocuklar İçin/Pixel Gereksinim Analizi Sunumu-KareKüp Uygulaması.pdf
 
 4. Hafta: Projenin SWOT Analizi Use Case ve Activity Diyagramlarının Oluşturulması
 
-Projenin SWOT Analizi -> [SWOT Analysis](<Hafta 4/Projenin Swot Analizi/SWOT_Analizi.pdf>)
+Projenin SWOT Analizi -> 
+[SWOT Analysis](<Hafta 4/Projenin Swot Analizi/SWOT_Analizi.pdf>)
 
-Projenin Use Case Diyagramı -> [Use Case Diagram](<Hafta 4/Projenin Use-Case Diyagramı/Use-Case_Diagram.pdf>)
+Projenin Use Case Diyagramı -> 
+[Use Case Diagram](<Hafta 4/Projenin Use-Case Diyagramı/Use-Case_Diagram.pdf>)
 
-Projenin Activity Diyagramı -> ![Activity Diagram](<Hafta 4/Projenin Activity Diyagramı/Activitiy_Diagram.png>)
+Projenin Activity Diyagramı -> 
+![Activity Diagram](<Hafta 4/Projenin Activity Diyagramı/Activitiy_Diagram.png>)
 
 5. Hafta: Projenin UML ER ve State Diyagramlarının Oluşturulması
 
-Projenin UML Diyagramı -> ![UML Diagram](<Hafta 5/Projenin UML Diyagramı/UML_Diagram.png>)
+Projenin UML Diyagramı -> 
+![UML Diagram](<Hafta 5/Projenin UML Diyagramı/UML_Diagram.png>)
 
-Projenin ER Diyagramı -> ![ER Diagram](<Hafta 5/Projenin ER Diyagramı/ER_Diagram.png>)
+Projenin ER Diyagramı -> 
+![ER Diagram](<Hafta 5/Projenin ER Diyagramı/ER_Diagram.png>)
 
 Projenin State Diyagramı -> 
 ![State Diagram](<Hafta 5/Projenin State Diyagramı/State_Diagram.png>)
