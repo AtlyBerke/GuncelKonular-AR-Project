@@ -1,5 +1,5 @@
-# GuncelKonular-AR-Project
-KAREKÜP MOBİL UYGULAMASI
+# GuncelKonular - KAREKÜP MOBİL UYGULAMASI
+
 
 ## 1. Hafta: Proje Giriş ve Hedef Belirleme
 Hedefler:
