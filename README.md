@@ -25,7 +25,9 @@ Projenin Çocuklar İçin Sunum Hali -> Hafta 3/Projenin Gereksinim Analiz Sunum
 
 4. Hafta: Projenin SWOT Analizi Use Case ve Activity Diyagramlarının Oluşturulması
 Projenin SWOT Analizi -> [SWOT Analysis](<Hafta 4/Projenin Swot Analizi/SWOT_Analizi.pdf>)
+
 Projenin Use Case Diyagramı -> [Use Case Diagram](<Hafta 4/Projenin Use-Case Diyagramı/Use-Case_Diagram.pdf>)
+
 Projenin Activity Diyagramı -> ![Activity Diagram](<Hafta 4/Projenin Activity Diyagramı/Activitiy_Diagram.png>)
 
 5. Hafta: Projenin UML ER ve State Diyagramlarının Oluşturulması
