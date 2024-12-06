@@ -20,5 +20,4 @@ Projenin Github Dosyası       -> https://github.com/AtlyBerke/GuncelKonular-AR-
 Projenin Trello Space Dosyası -> https://trello.com/b/Ld9OTq0y/ar-projesi-vize-yazilim-muh-guncel-konular
 
 3. Hafta: Projenin Gereksinim Analizi ve Proje Sunum Dosyası
-Projenin Gereksinim Analizi -> [Gereksinim Analizi](C:\GitHub\GuncelKonular-AR-Project\GuncelKonular-AR-Project\Hafta 3\Projenin Gereksinim Analizi\KareKüp_Gereksinim_Analizi.docx)
-
+Projenin Gereksinim Analizi -> [Gereksinim Analizi](<Hafta 3/Projenin Gereksinim Analizi/KareKüp_Gereksinim_Analizi.docx>)
