@@ -19,6 +19,6 @@ Bu sayede SaaS mantığı projeye entegre olacak.
 Projenin Github Dosyası       -> https://github.com/AtlyBerke/GuncelKonular-AR-Project
 Projenin Trello Space Dosyası -> https://trello.com/b/Ld9OTq0y/ar-projesi-vize-yazilim-muh-guncel-konular
 
-3.Hafta: Projenin Gereksinim Analizi ve Proje Sunum Dosyası
-Projenin Gereksinim Analizi -> 
+3. Hafta: Projenin Gereksinim Analizi ve Proje Sunum Dosyası
+Projenin Gereksinim Analizi -> [Dosya Adı](KareKüp_Gereksinim_Analizi.docx)
 
