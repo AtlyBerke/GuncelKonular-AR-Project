@@ -28,35 +28,46 @@ Hafta 3/Projenin Gereksinim Analiz Sunumu - Çocuklar İçin/Pixel Gereksinim An
 
 4. Hafta: Projenin SWOT Analizi Use Case ve Activity Diyagramlarının Oluşturulması
 
-Projenin SWOT Analizi -> 
+Projenin SWOT Analizi ->
+ 
 [SWOT Analysis](<Hafta 4/Projenin Swot Analizi/SWOT_Analizi.pdf>)
 
-Projenin Use Case Diyagramı -> 
+Projenin Use Case Diyagramı ->
+
 [Use Case Diagram](<Hafta 4/Projenin Use-Case Diyagramı/Use-Case_Diagram.pdf>)
 
-Projenin Activity Diyagramı -> 
+Projenin Activity Diyagramı ->
+
 ![Activity Diagram](<Hafta 4/Projenin Activity Diyagramı/Activitiy_Diagram.png>)
 
 5. Hafta: Projenin UML ER ve State Diyagramlarının Oluşturulması
 
-Projenin UML Diyagramı -> 
+Projenin UML Diyagramı ->
+
 ![UML Diagram](<Hafta 5/Projenin UML Diyagramı/UML_Diagram.png>)
 
-Projenin ER Diyagramı -> 
+Projenin ER Diyagramı ->
+
 ![ER Diagram](<Hafta 5/Projenin ER Diyagramı/ER_Diagram.png>)
 
-Projenin State Diyagramı -> 
+Projenin State Diyagramı ->
+
 ![State Diagram](<Hafta 5/Projenin State Diyagramı/State_Diagram.png>)
 
 6. Hafta: Projenin Sequence Object Deployment Diyagramlarının Oluşturulması
 
 Projenin Sequence Diyagramı -> 
+
 ![Sequence Diagram](<Hafta 6/Projenin Sequence Diyagramı/Sequence_Diagram.png>)
 
+
 Projenin Object Diyagramı -> 
+
 ![Object Diagram](<Hafta 6/Projenin Object Diyagramı/Object_Diagram.png>)
 
-Projenin Deployment Diyagramı -> 
+
+Projenin Deployment Diyagramı ->
+
 ![Deployment Diagram](<Hafta 6/Projenin Deployment Diyagramı/Deployment_diagram.png>)
 
 7. Hafta: Projenin Kodlanması ve Test Edilmesi
