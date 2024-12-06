@@ -37,15 +37,19 @@ Projenin UML Diyagramı -> ![UML Diagram](<Hafta 5/Projenin UML Diyagramı/UML_D
 
 Projenin ER Diyagramı -> ![ER Diagram](<Hafta 5/Projenin ER Diyagramı/ER_Diagram.png>)
 
-Projenin State Diyagramı -> ![State Diagram](<Hafta 5/Projenin State Diyagramı/State_Diagram.png>)
+Projenin State Diyagramı -> 
+![State Diagram](<Hafta 5/Projenin State Diyagramı/State_Diagram.png>)
 
 6. Hafta: Projenin Sequence Object Deployment Diyagramlarının Oluşturulması
 
-Projenin Sequence Diyagramı -> ![Sequence Diagram](<Hafta 6/Projenin Sequence Diyagramı/Sequence_Diagram.png>)
+Projenin Sequence Diyagramı -> 
+![Sequence Diagram](<Hafta 6/Projenin Sequence Diyagramı/Sequence_Diagram.png>)
 
-Projenin Object Diyagramı -> ![Object Diagram](<Hafta 6/Projenin Object Diyagramı/Object_Diagram.png>)
+Projenin Object Diyagramı -> 
+![Object Diagram](<Hafta 6/Projenin Object Diyagramı/Object_Diagram.png>)
 
-Projenin Deployment Diyagramı -> ![Deployment Diagram](<Hafta 6/Projenin Deployment Diyagramı/Deployment_diagram.png>)
+Projenin Deployment Diyagramı -> 
+![Deployment Diagram](<Hafta 6/Projenin Deployment Diyagramı/Deployment_diagram.png>)
 
 7. Hafta: Projenin Kodlanması ve Test Edilmesi
 Projenin Kaynak Kodları -> 
