@@ -14,38 +14,34 @@ Snack is Open Source. You can find the code on the [GitHub repo](https://github.
 ## 1. Gerekli Araçların Kurulumu
 Öncelikle, aşağıdaki araçların bilgisayarınızda kurulu olduğundan emin olun:
 
-Node.js: Node.js indir
-npm: Node.js ile birlikte gelir. Komut satırında npm -v yazarak sürüm kontrolü yapabilirsiniz.
+Node.js:
+Node.js indir
+
+npm: Node.js ile birlikte gelir.
+Komut satırında npm -v yazarak sürüm kontrolü yapabilirsiniz.
+
 Expo CLI: React Native uygulamalarını yönetmek için kullanılır.
+
 Expo CLI'nin Kurulumu:
 Expo CLI'yi yüklemek için aşağıdaki komutu çalıştırın:
-
-bash
-Kodu kopyala
 npm install -g expo-cli
 Expo CLI kurulu değilse proje komutları çalışmayacaktır.
 
 ## 2. Projenin Hazırlanması ve İndirilmesi
 GitHub üzerindeki projeyi klonlayın:
-bash
-Kodu kopyala
 git clone <REPO_URL>
-Proje klasörüne gidin:
-bash
-Kodu kopyala
 cd <PROJECT_FOLDER>
+
 Gerekli bağımlılıkları yükleyin:
-bash
-Kodu kopyala
 npm install
+
 ## 3. Projeyi Çalıştırma
 Projeyi başlatmak için şu komutu kullanın:
-bash
-Kodu kopyala
 npx expo start
 Bu komut, Expo Developer Tools'u tarayıcınızda açacaktır.
 
 QR kodu taratın: Telefonunuzda Expo Go uygulamasını kullanarak QR kodu tarayın.
+
 Emülatör veya simülatör: Android Studio veya iOS simülatörünü kullanarak çalıştırabilirsiniz.
 Telefonunuzda veya emülatör üzerinde uygulama otomatik olarak yüklenecektir.
 
