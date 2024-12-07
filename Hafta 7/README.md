@@ -24,7 +24,9 @@ Expo CLI: React Native uygulamalarını yönetmek için kullanılır.
 
 Expo CLI'nin Kurulumu:
 Expo CLI'yi yüklemek için aşağıdaki komutu çalıştırın:
+
 npm install -g expo-cli
+
 Expo CLI kurulu değilse proje komutları çalışmayacaktır.
 
 ## 2. Projenin Hazırlanması ve İndirilmesi
@@ -51,3 +53,4 @@ iOS için: App Store’dan Expo Go uygulamasını indirin.
 Uygulamada QR kodu taratarak projeyi çalıştırabilirsiniz.
 ## 5. Kodda Değişiklik Yapma
 App.js dosyasında değişiklik yaparak projeyi özelleştirebilirsiniz. Kodda yaptığınız değişiklikler, uygulamayı yenilemenize gerek kalmadan otomatik olarak mobil cihazınıza yansıyacaktır.
+
