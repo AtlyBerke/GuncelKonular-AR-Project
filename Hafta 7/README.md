@@ -31,15 +31,20 @@ Expo CLI kurulu değilse proje komutları çalışmayacaktır.
 
 ## 2. Projenin Hazırlanması ve İndirilmesi
 GitHub üzerindeki projeyi klonlayın:
+
 git clone <REPO_URL>
+
 cd <PROJECT_FOLDER>
 
 Gerekli bağımlılıkları yükleyin:
+
 npm install
 
 ## 3. Projeyi Çalıştırma
 Projeyi başlatmak için şu komutu kullanın:
+
 npx expo start
+
 Bu komut, Expo Developer Tools'u tarayıcınızda açacaktır.
 
 QR kodu taratın: Telefonunuzda Expo Go uygulamasını kullanarak QR kodu tarayın.
