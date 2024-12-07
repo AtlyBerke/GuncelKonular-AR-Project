@@ -23,8 +23,8 @@ Projenin Trello Space Dosyası -> https://trello.com/b/Ld9OTq0y/ar-projesi-vize-
 Projenin Gereksinim Analizi -> 
 [Gereksinim Analizi](<Hafta 3/Projenin Gereksinim Analizi/KareKüp_Gereksinim_Analizi.docx>)
 
-Projenin Çocuklar İçin Sunum Hali -> 
-Hafta 3/Projenin Gereksinim Analiz Sunumu - Çocuklar İçin/Pixel Gereksinim Analizi Sunumu-KareKüp Uygulaması.pdf
+Projenin Çocuklar İçin Sunum Hali -> [Çocuklar İçin Proje Sunumu](<Hafta 3/Projenin Gereksinim Analiz Sunumu - Çocuklar İçin/Pixel Gereksinim Analizi Sunumu-KareKüp Uygulaması.pdf>)
+
 
 ## 4. Hafta: Projenin SWOT Analizi Use Case ve Activity Diyagramlarının Oluşturulması
 
