@@ -21,9 +21,9 @@ Projenin Trello Space Dosyası -> https://trello.com/b/Ld9OTq0y/ar-projesi-vize-
 
 ## 3. Hafta: Projenin Gereksinim Analizi ve Proje Sunum Dosyası
 Projenin Gereksinim Analizi -> 
-[Gereksinim Analizi](<Hafta 3/Projenin Gereksinim Analizi/KareKüp_Gereksinim_Analizi.docx>)
+[Gereksinim Analizi](<Hafta 3/Projenin Gereksinim Analizi/KareKüp_Gereksinim_Analizi.docx>) (İndirmeye Tıklayın)
 
-Projenin Çocuklar İçin Sunum Hali -> [Çocuklar İçin Proje Sunumu](<Hafta 3/Projenin Gereksinim Analiz Sunumu - Çocuklar İçin/Pixel Gereksinim Analizi Sunumu-KareKüp Uygulaması.pdf>)
+Projenin Çocuklar İçin Sunum Hali -> [Çocuklar İçin Proje Sunumu](<Hafta 3/Projenin Gereksinim Analiz Sunumu - Çocuklar İçin/Pixel Gereksinim Analizi Sunumu-KareKüp Uygulaması.pdf>) (İndirmeye Tıklayın)
 
 
 ## 4. Hafta: Projenin SWOT Analizi Use Case ve Activity Diyagramlarının Oluşturulması
@@ -72,5 +72,6 @@ Projenin Deployment Diyagramı ->
 
 ## 7. Hafta: Projenin Kodlanması ve Test Edilmesi
 Projenin Kaynak Kodları -> https://github.com/AtlyBerke/GuncelKonular-AR-Project/tree/main/Hafta%207
+Projenin Web Sitesinin Oluşturulması ve Entegrasyonu ->
 
 
