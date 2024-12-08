@@ -72,6 +72,9 @@ Projenin Deployment Diyagramı ->
 
 ## 7. Hafta: Projenin Kodlanması ve Test Edilmesi
 Projenin Kaynak Kodları -> https://github.com/AtlyBerke/GuncelKonular-AR-Project/tree/main/Hafta%207
+
 Projenin Web Sitesinin Oluşturulması ve Entegrasyonu(APK İndirme Mevcut) -> https://atlyberke.github.io/Karekup-WebSite/
+
+Projenin 
 
 
