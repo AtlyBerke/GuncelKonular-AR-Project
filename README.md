@@ -71,9 +71,9 @@ Projenin Deployment Diyagramı ->
 ![Deployment Diagram](<Hafta 6/Projenin Deployment Diyagramı/Deployment_diagram.png>)
 
 ## 7. Hafta: Projenin Kodlanması ve Test Edilmesi
-Projenin Kaynak Kodları -> https://github.com/AtlyBerke/GuncelKonular-AR-Project/tree/main/Hafta%207
+Projenin Kaynak Kodları -> https://github.com/AtlyBerke/GuncelKonular-AR-Project/tree/main/Hafta%207/Kaynak%20Kod
 
-Projenin Web Sitesinin Oluşturulması ve Entegrasyonu(APK İndirme Mevcut) -> https://github.com/AtlyBerke/GuncelKonular-AR-Project/tree/main/Hafta%207/Kaynak%20Kod
+Projenin Web Sitesinin Oluşturulması ve Entegrasyonu(APK İndirme Mevcut) -> https://atlyberke.github.io/Karekup-WebSite/
 
 Projenin Teknolojik Hazırlık Seviyesi -> [Teknolojinin Hazırlık Seviyesi Belgesi](<Hafta 7/Teknolojik Hazırlık Seviyesi/Teknoloji Hazırlık Seviye Belirleme.xlsx>)
 
