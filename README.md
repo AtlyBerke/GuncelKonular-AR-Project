@@ -17,6 +17,7 @@ Bu sayede SaaS mantığı projeye entegre olacak.
 
 ## 2. Hafta: Proje İçin Github Dosyasının Oluşturulması ve Projenin Trello Space'inin Oluşturulması
 Projenin Github Dosyası       -> https://github.com/AtlyBerke/GuncelKonular-AR-Project
+
 Projenin Trello Space Dosyası -> https://trello.com/b/Ld9OTq0y/ar-projesi-vize-yazilim-muh-guncel-konular
 
 ## 3. Hafta: Projenin Gereksinim Analizi ve Proje Sunum Dosyası
