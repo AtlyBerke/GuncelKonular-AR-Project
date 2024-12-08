@@ -1,5 +1,6 @@
 # GuncelKonular - KAREKÜP MOBİL UYGULAMASI
 
+Proje Tanıtım Linki : https://www.youtube.com/watch?v=5Cti7K85mvY
 
 ## 1. Hafta: Proje Giriş ve Hedef Belirleme
 Hedefler:
