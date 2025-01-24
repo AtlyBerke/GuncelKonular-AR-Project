@@ -1,0 +1,1 @@
+100 MB üstü olduğu için ziplemek zorunda kaldım.

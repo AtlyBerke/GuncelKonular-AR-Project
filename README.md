@@ -81,4 +81,27 @@ Projenin Teknolojik Hazırlık Seviyesi -> [Teknolojinin Hazırlık Seviyesi Bel
 
 Projenin WebSite Kaynak Kodları -> https://github.com/AtlyBerke/Karekup-WebSite
 
+## Final Güncellemesi
+Yazılım Mühendisliği Güncel Konular Finali Kapsamında Yaptığım Güncellemeler
+-Ses miksajını düzelttim.
+
+
+-Anasayfa ve soru sayfalarında container,style ve css ayarlamalarını yaptım ve animasyon ekledim.
+
+
+-Yeni 2 soru daha ekleyerek çocuklar için kolay-orta-zor şeklinde 3 kare ve kök hesaplama sorusu sordum.
+
+
+-Payment sistemi başarıyla devam ediyor.
+
+
+-Uygulamanın yüklenme ve app halinde ufak resimle icon ekledim.
+
+
+-Site Güncellendi.
+
+Atalay Berke Cin
+205541052 – Gece B
+
+
 
