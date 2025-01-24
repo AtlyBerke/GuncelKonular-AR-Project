@@ -2,6 +2,8 @@
 
 Proje Tanıtım Linki : https://www.youtube.com/watch?v=5Cti7K85mvY
 
+Güncel APK(FİNAL) : https://drive.google.com/file/d/13knoXNgqvzlAHZ5-dltztBoqzdHHIoW3/view
+
 ## 1. Hafta: Proje Giriş ve Hedef Belirleme
 Hedefler:
 
@@ -104,7 +106,15 @@ Yazılım Mühendisliği Güncel Konular Finali Kapsamında Yaptığım Güncell
 
 ### Örnek Resimler
 
-![icon](<GuncelKonular\Proje Görselleri\icon.png>)
+![icon](<Proje Görselleri/icon.jpg>)
+
+![home screen](<Proje Görselleri/homegamescreen.jpg>)
+
+![question 1](<Proje Görselleri/question1screen.jpg>)
+
+![question 2](<Proje Görselleri/question2screen.jpg>)
+
+![question 3](<Proje Görselleri/question3screen.jpg>)
 
 Atalay Berke Cin
 205541052 – Gece B
