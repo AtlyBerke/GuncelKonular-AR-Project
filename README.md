@@ -1,4 +1,6 @@
 # GuncelKonular - KAREKÜP MOBİL UYGULAMASI
+# Atalay Berke Cin
+# 205541052 – Gece B
 
 Proje Tanıtım Linki : https://www.youtube.com/watch?v=5Cti7K85mvY
 
@@ -12,7 +14,7 @@ AR kullanım alanlarının araştırılması.
 Projenin Belirlenmesi:
 
 Projemiz:
-Çocukların aritmetik zekasını geliştiren bir soru üzerinden kare ve küp kavramını öğretmeyi amaçlıyoruz. 2 ile 100 arasında bir sayının karesi aynı zamanda başka bir sayının küpüyle eşit olan sadece bir sayı var.
+Çocukların aritmetik zekasını geliştiren bir soru üzerinden kare ve küp kavramını öğretmeyi amaçlıyoruz. 2 sayı arasında bir sayının karesi aynı zamanda başka bir sayının küpüyle eşit olan sadece bir sayı var.
 Bunu bulması için belli bir zaman ve hak aralığı tanımlıyoruz.
 Doğru cevabı bulamazsa ek hak için belli bir süre beklemesi gerekiyor ya da belirli bir ücret karşılığında haklarını yenileyebiliyor.
 Bu sayede SaaS mantığı projeye entegre olacak.
@@ -114,10 +116,9 @@ Yazılım Mühendisliği Güncel Konular Finali Kapsamında Yaptığım Güncell
 
 ![question 2](<Proje Görselleri/question2screen.jpg>)
 
-![question 3](<Proje Görselleri/question3screen.jpg>)
+![question 3](<Proje Görselleri/question3 screen.jpg>)
 
-Atalay Berke Cin
-205541052 – Gece B
+
 
 
 
