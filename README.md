@@ -6,6 +6,8 @@ Proje Tanıtım Linki : https://www.youtube.com/watch?v=5Cti7K85mvY
 
 Güncel APK(FİNAL) : https://drive.google.com/file/d/13knoXNgqvzlAHZ5-dltztBoqzdHHIoW3/view
 
+Projenin Teknolojik Hazırlık Seviyesi -> [Teknolojinin Hazırlık Seviyesi Belgesi](<Hafta 7/Teknolojik Hazırlık Seviyesi/Teknoloji Hazırlık Seviye Belirleme.xlsx>)
+
 ## 1. Hafta: Proje Giriş ve Hedef Belirleme
 Hedefler:
 
