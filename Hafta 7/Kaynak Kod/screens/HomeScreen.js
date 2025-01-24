@@ -43,7 +43,7 @@ export default function HomeScreen({ navigation }) {
     <ImageBackground source={require('../assets/images/turkish_airlines_logo.png')} style={styles.container}>
       {/* Başlık kısmı */}
       <Animated.View style={[styles.titleWrapper, { opacity: fadeIn }]}>
-        <Text style={styles.title}>KareKüp Oyunu</Text>
+        <Text style={styles.title}>KareKüp Oyunu 2</Text>
       </Animated.View>
 
       {/* OYNA Butonu */}
@@ -84,38 +84,38 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'transparent',
+    backgroundColor: '#F0F8FF', // Daha yumuşak bir arka plan rengi
   },
   titleWrapper: {
-    backgroundColor: 'rgba(0, 0, 0, 0.4)', // Başlık arka planına daha hafif şeffaf siyah renk ekledik
+    backgroundColor: 'rgba(0, 0, 0, 0.5)', // Hafif koyulaştırılmış arka plan
     borderRadius: 40,
     paddingVertical: 30,
     paddingHorizontal: 40,
-    marginBottom: 50, // Başlık ile butonlar arasına mesafe
+    marginBottom: 50,
     shadowColor: '#000',
-    shadowOffset: { width: 0, height: 4 },
+    shadowOffset: { width: 0, height: 8 },
     shadowOpacity: 0.7,
-    shadowRadius: 10,
-    borderWidth: 2, // Hafif sınır ekledik
-    borderColor: '#FFF', // Hafif beyaz kenar
+    shadowRadius: 20,
+    borderWidth: 2,
+    borderColor: '#FFD700', // Altın rengi kenarlık
   },
   title: {
-    fontSize: 60,
+    fontSize: 65,
     fontWeight: '900',
-    color: '#E30613', // Türk Hava Yolları kırmızı rengi (#E30613)
+    color: '#FF6347', // Kırmızımsı turuncu
     textAlign: 'center',
-    fontFamily: 'Cochin', // Estetik bir font
-    letterSpacing: 3,
-    textShadowColor: 'rgba(0, 0, 0, 0.8)',
-    textShadowOffset: { width: 4, height: 4 },
-    textShadowRadius: 15,
+    fontFamily: 'Cochin',
+    letterSpacing: 4,
+    textShadowColor: 'rgba(0, 0, 0, 0.9)',
+    textShadowOffset: { width: 6, height: 6 },
+    textShadowRadius: 18,
     backgroundColor: 'transparent',
-    transform: [{ rotate: '-5deg' }], // Başlığı hafif eğik yaparak modern bir görünüm elde ettik
+    transform: [{ rotate: '-6deg' }],
   },
   buttonWrapper: {
     width: 240,
     height: 60,
-    backgroundColor: '#FF6347', // Buton rengi kırmızımsı turuncu
+    backgroundColor: '#32CD32', // Canlı yeşil renk
     borderRadius: 35,
     justifyContent: 'center',
     alignItems: 'center',
@@ -124,14 +124,14 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 6 },
-    shadowOpacity: 0.4,
-    shadowRadius: 15,
+    shadowOpacity: 0.6,
+    shadowRadius: 10,
   },
   buttonText: {
     fontSize: 24,
     color: '#FFF',
     fontWeight: '600',
     letterSpacing: 1.5,
-    textTransform: 'uppercase', // Buton metnini büyük harfe çevirme
+    textTransform: 'uppercase',
   },
 });

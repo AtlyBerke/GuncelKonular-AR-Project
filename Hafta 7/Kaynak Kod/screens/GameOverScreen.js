@@ -36,7 +36,7 @@
           style={styles.backgroundImage}
         />
         <View style={styles.contentContainer}>
-          <Text style={styles.message}>Doğru Cevap 64 Bravo ! Oyun Bitti!</Text>
+          <Text style={styles.message}>Doğru Cevap 4096 Bravo ! Oyun Bitti!</Text>
           <TouchableOpacity style={styles.replayButton} onPress={handleReplay}>
             <Text style={styles.replayButtonText}>Tekrar Oyna</Text>
           </TouchableOpacity>

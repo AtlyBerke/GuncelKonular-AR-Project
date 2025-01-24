@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "karekup",
-    "slug": "Karekup",
+    "name": "karekup2",
+    "slug": "snack-208a634c-bf73-422a-989b-0c04c9bd556e",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,14 +20,14 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.bercy54.snack45ae0766703148cebb8a404d1e5a1c58"
+      "package": "com.bercy54.snack208a634cbf73422a989b0c04c9bd556e"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "6b19d1d6-fcac-4de8-8013-1ca7a7c96457"
+        "projectId": "af46023f-52d0-4031-802d-c4ffd5ee0b04"
       }
     }
   }

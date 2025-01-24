@@ -38,7 +38,7 @@ export default function InstructionScreen2({ navigation }) {
       {/* Adım 2 Metni */}
       <Animated.Text style={[styles.stepText, { opacity: fadeInStep, transform: [{ translateY: slideIn }] }]}>
         <Text style={styles.redText}>Adım 2: </Text>
-        <Text style={styles.normalText}>2 ile 100 arasında, </Text>
+        <Text style={styles.normalText}>2 sayı arasında, </Text>
         <Text style={styles.redText}>bir sayının KARESİ başka bir sayının da KÜPÜ olan sadece BİR sayı var! </Text>
         <Text style={styles.normalText}>Bunu bulmak için sayıların küplerini ve karelerini bilmelisin.</Text>
       </Animated.Text>

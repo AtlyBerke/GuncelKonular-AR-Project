@@ -3,7 +3,7 @@ import { View, Text, TextInput, StyleSheet, TouchableOpacity, Animated, Image } 
 import { useNavigation } from '@react-navigation/native';
 import { Video } from 'expo-av';
 
-export default function GameScreen() {
+export default function GameScreen2() {
   const [number, setNumber] = useState('');
   const [square, setSquare] = useState(null);
   const [cube, setCube] = useState(null);
@@ -98,11 +98,11 @@ export default function GameScreen() {
   };
 
 const checkAnswer = () => {
-  if (userAnswer === '64') {
+  if (userAnswer === '729') {
     setCorrectAnswer(true);
     // Doğru cevabı verdiyse, "Bravo, doğru bildiniz!" mesajını göster ve GameScreen2'ye git
     setTimeout(() => {
-      navigation.replace('GameScreen2', { message: 'Bravo, doğru bildiniz!' });
+      navigation.replace('GameScreen3', { message: 'Bravo, doğru bildiniz!' });
     }, 5000);  // Mesajın animasyonu için 1 saniye bekle
     // Mesaj animasyonunu başlat
     Animated.timing(messageAnim, {
@@ -146,9 +146,9 @@ const checkAnswer = () => {
         <Text style={styles.timer}>Kalan Zaman: {timeLeft} saniye</Text>
         <View style={styles.challengeTextContainer}>
           <Text style={styles.challengeText}>
-            2 ile 100 arasındaki bir sayının karesi diğer sayının da küpü olan o sayıyı bulun!
+            2 ile 200 arasındaki bir sayının karesi diğer sayının da küpü olan o sayıyı bulun!
           </Text>
-          <Text style={styles.hintText}>
+           <Text style={styles.hintText}>
             💡 İpucu: Bir sayının karesi demek, bir sayının kendisiyle çarpımıdır. Küpü ise, bir sayının üç kez çarpılmasıdır.
           </Text>
         </View>
@@ -160,6 +160,8 @@ const checkAnswer = () => {
           style={styles.input}
           keyboardType="numeric"
           placeholder="Bir sayı girin"
+
+          
           value={number}
           onChangeText={(text) => setNumber(text)}
         />

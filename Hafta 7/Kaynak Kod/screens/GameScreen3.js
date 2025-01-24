@@ -3,18 +3,16 @@ import { View, Text, TextInput, StyleSheet, TouchableOpacity, Animated, Image } 
 import { useNavigation } from '@react-navigation/native';
 import { Video } from 'expo-av';
 
-export default function GameScreen() {
+export default function GameScreen2() {
   const [number, setNumber] = useState('');
   const [square, setSquare] = useState(null);
   const [cube, setCube] = useState(null);
   const [timeLeft, setTimeLeft] = useState(180);
   const [userAnswer, setUserAnswer] = useState('');
   const [remainingTries, setRemainingTries] = useState(3);
-  const [correctAnswer, setCorrectAnswer] = useState(false);
   const [paymentOption, setPaymentOption] = useState(false);
   const [squareAnim] = useState(new Animated.Value(0));  // Kare animasyonu
   const [cubeAnim] = useState(new Animated.Value(0));    // Küp animasyonu
-  const [messageAnim] = useState(new Animated.Value(0));  // "Bravo, doğru bildiniz!" mesaj animasyonu
   const navigation = useNavigation();
 
   const animationValue = new Animated.Value(1);
@@ -32,10 +30,9 @@ export default function GameScreen() {
     }
   }, [timeLeft, navigation]);
 
-  const resetAnimations = () => {
+ const resetAnimations = () => {
     squareAnim.setValue(0);
     cubeAnim.setValue(0);
-    messageAnim.setValue(0); // Mesaj animasyonunu sıfırlama
   };
 
   const calculateSquareAndCube = () => {
@@ -97,19 +94,11 @@ export default function GameScreen() {
     ).start();
   };
 
+
 const checkAnswer = () => {
-  if (userAnswer === '64') {
-    setCorrectAnswer(true);
-    // Doğru cevabı verdiyse, "Bravo, doğru bildiniz!" mesajını göster ve GameScreen2'ye git
-    setTimeout(() => {
-      navigation.replace('GameScreen2', { message: 'Bravo, doğru bildiniz!' });
-    }, 5000);  // Mesajın animasyonu için 1 saniye bekle
-    // Mesaj animasyonunu başlat
-    Animated.timing(messageAnim, {
-      toValue: 1,
-      duration: 3000,  // Mesajın daha uzun süre görünmesi için animasyon süresi arttırıldı
-      useNativeDriver: true,
-    }).start();
+  if (userAnswer === '4096') {
+    // Eğer cevap doğruysa, PaymentScreen'e yönlendir.
+    navigation.navigate('GameOverScreen');  // Burada replace yerine navigate kullanıyoruz.
   } else {
     if (remainingTries > 1) {
       setRemainingTries(remainingTries - 1);
@@ -118,7 +107,7 @@ const checkAnswer = () => {
     } else {
       setPaymentOption(true);
       animateFinalTry(); // Titreşim animasyonu başlat
-      navigation.navigate('PaymentScreen');
+      navigation.navigate('PaymentScreen'); // Hatalı cevaptan sonra ödeme ekranına yönlendirme.
     }
   }
 };
@@ -126,7 +115,7 @@ const checkAnswer = () => {
 
   return (
     <View style={styles.container}>
-      {/* Arka plan videosu */}
+      {/* Background video */}
       <Video
         source={require('../assets/videos/thy-video.mp4')}
         style={styles.backgroundVideo}
@@ -137,7 +126,6 @@ const checkAnswer = () => {
       />
 
       <View style={styles.timerContainer}>
-        {/* Home Butonu PNG ile değiştirildi */}
         <TouchableOpacity
           style={styles.homeButton}
           onPress={() => navigation.navigate('HomeScreen')}>
@@ -146,7 +134,7 @@ const checkAnswer = () => {
         <Text style={styles.timer}>Kalan Zaman: {timeLeft} saniye</Text>
         <View style={styles.challengeTextContainer}>
           <Text style={styles.challengeText}>
-            2 ile 100 arasındaki bir sayının karesi diğer sayının da küpü olan o sayıyı bulun!
+            2000 ile 5000 arasında bir sayı, hem bir sayının karesi hem de başka bir sayının küpü olabilir. Bu sayı nedir?
           </Text>
           <Text style={styles.hintText}>
             💡 İpucu: Bir sayının karesi demek, bir sayının kendisiyle çarpımıdır. Küpü ise, bir sayının üç kez çarpılmasıdır.
@@ -154,7 +142,7 @@ const checkAnswer = () => {
         </View>
       </View>
 
-      <View style={styles.calculatorContainer}>
+        <View style={styles.calculatorContainer}>
         <Text style={styles.title}>Kare ve Küp Hesaplayıcı</Text>
         <TextInput
           style={styles.input}
@@ -179,48 +167,35 @@ const checkAnswer = () => {
       </View>
 
       <View style={styles.answerContainer}>
-        {correctAnswer ? (
-          <Animated.Text
-            style={[
-              styles.resultText,
-              {
-                opacity: messageAnim,
-                color: 'green',
-                fontSize: 24,
-                fontWeight: 'bold',
-                transform: [{ scale: messageAnim.interpolate({ inputRange: [0, 1], outputRange: [0.5, 1.1] }) }],
-              },
-            ]}>
-            Bravo, doğru bildiniz!
-          </Animated.Text>
-        ) : (
-          <>
-            <TextInput
-              style={styles.answerInput}
-              placeholder="Cevabınızı girin"
-              value={userAnswer}
-              onChangeText={(text) => setUserAnswer(text)}
-            />
-            <TouchableOpacity style={styles.button2} onPress={checkAnswer}>
-              <Text style={styles.buttonText}>Cevabı Kontrol Et</Text>
-            </TouchableOpacity>
-            <Animated.Text
-              style={[styles.triesText, { transform: [{ scale: triesAnimation }] }]}>
-              Kalan Cevap Hakkınız: {remainingTries}
-            </Animated.Text>
-          </>
-        )}
+        <TextInput
+          style={styles.answerInput}
+          placeholder="Cevabınızı girin"
+          value={userAnswer}
+          onChangeText={(text) => setUserAnswer(text)}
+        />
+        <TouchableOpacity style={styles.button2} onPress={checkAnswer}>
+          <Text style={styles.buttonText}>Cevabı Kontrol Et</Text>
+        </TouchableOpacity>
+        <Animated.Text
+          style={[
+            styles.triesText,
+            { transform: [{ scale: triesAnimation }], color: 'black' },
+          ]}>
+          Kalan Cevap Hakkınız: {remainingTries}
+        </Animated.Text>
       </View>
     </View>
   );
 }
+
+
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    position: 'relative',
+    position: 'relative', // Bunu ekledik
   },
   timerContainer: {
     alignItems: 'center',
@@ -238,7 +213,7 @@ const styles = StyleSheet.create({
     textShadowRadius: 10,
   },
   challengeTextContainer: {
-    backgroundColor: 'rgba(255, 255, 255, 0.6)',
+    backgroundColor: 'rgba(255, 255, 255, 0.6)',  // Saydam arka plan
     borderRadius: 10,
     padding: 10,
   },
@@ -249,12 +224,12 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontFamily: 'Comic Sans MS',
   },
-  homeButton: {
-    backgroundColor: 'transparent',
-    padding: 10,
-    marginTop: 40,
-    marginBottom: 10,
-  },
+homeButton: {
+  backgroundColor: 'transparent',
+  padding: 10,
+  marginTop: 40, // Daha aşağı kaydırmak için bu değeri artırabilirsiniz
+  marginBottom: 10,
+},
   homeImage: {
     width: 40,
     height: 40,
@@ -289,8 +264,8 @@ const styles = StyleSheet.create({
     marginTop: 20,
   },
   resultText: {
-    fontSize: 20,
-    color: 'black',
+    fontSize: 20, // Boyutu büyüttük
+    color: 'black', // Rengi siyah yaptık
     textAlign: 'center',
   },
   answerContainer: {
@@ -317,7 +292,13 @@ const styles = StyleSheet.create({
     marginTop: 10,
     borderRadius: 5,
   },
-  button2: {
+  buttonText: {
+    color: 'white',
+    fontSize: 16,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+button2: {
   backgroundColor: '#FF6F61',
   padding: 10,
   marginTop: 2,
@@ -325,19 +306,25 @@ const styles = StyleSheet.create({
   position: 'relative', // relative pozisyonu ekleyin
   top: -15, // Butonu yukarı taşımak için top değerini negatif bir sayıya ayarlayın
 },
-  buttonText: {
-    color: 'white',
-    fontSize: 16,
-    fontWeight: 'bold',
-    textAlign: 'center',
+   hintText: {
+    fontSize: 14,
+    color: '#666',
+    marginTop: 10,
+    fontStyle: 'italic',
+  },
+
+  backgroundVideo: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: '100%',
   },
   triesText: {
     fontSize: 18,
-    color: 'black',
+    color: '#FF6F61',
     textAlign: 'center',
-    marginTop: 10,
-  },
-  backgroundVideo: {
-    ...StyleSheet.absoluteFillObject,
+    marginTop: -15,
+    fontWeight: 'bold',
   },
 });

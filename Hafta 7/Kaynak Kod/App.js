@@ -8,6 +8,8 @@ import InstructionScreen1 from './screens/InstructionScreen1';
 import InstructionScreen2 from './screens/InstructionScreen2';
 import InstructionScreen3 from './screens/InstructionScreen3';
 import GameScreen from './screens/GameScreen';
+import GameScreen2 from './screens/GameScreen2';
+import GameScreen3 from './screens/GameScreen3';
 import GameOverScreen from './screens/GameOverScreen';
 import PaymentScreen from './screens/PaymentScreen'; // Ödeme ekranı
 
@@ -77,6 +79,8 @@ export default function App() {
         <Stack.Screen name="InstructionScreen2" component={InstructionScreen2} options={{ headerShown: false }} />
         <Stack.Screen name="InstructionScreen3" component={InstructionScreen3} options={{ headerShown: false }} />
         <Stack.Screen name="GameScreen" component={GameScreen} options={{ headerShown: false }} />
+        <Stack.Screen name="GameScreen2" component={GameScreen2} options={{ headerShown: false }} />
+        <Stack.Screen name="GameScreen3" component={GameScreen3} options={{ headerShown: false }} />
         <Stack.Screen name="GameOverScreen" component={GameOverScreen} options={{ headerShown: false }} />
         <Stack.Screen 
           name="PaymentScreen" 
