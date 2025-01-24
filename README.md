@@ -104,7 +104,7 @@ Yazılım Mühendisliği Güncel Konular Finali Kapsamında Yaptığım Güncell
 
 ### Örnek Resimler
 
-![Icon](<Proje Görselleri/icon.png>)
+![icon](<GuncelKonular\Proje Görselleri\icon.png>)
 
 Atalay Berke Cin
 205541052 – Gece B
