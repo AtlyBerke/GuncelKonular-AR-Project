@@ -75,6 +75,8 @@ Projenin Deployment Diyagramı ->
 ## 7. Hafta: Projenin Kodlanması ve Test Edilmesi
 Projenin Kaynak Kodları -> https://github.com/AtlyBerke/GuncelKonular-AR-Project/tree/main/Hafta%207/Kaynak%20Kod
 
+Projenin Güncel Kaynak Kodları(Final) -> https://github.com/AtlyBerke/GuncelKonular-AR-Project/tree/main/Guncel-KaynakKod
+
 Projenin Web Sitesinin Oluşturulması ve Entegrasyonu(APK İndirme Mevcut) -> https://atlyberke.github.io/Karekup-WebSite/
 
 Projenin Teknolojik Hazırlık Seviyesi -> [Teknolojinin Hazırlık Seviyesi Belgesi](<Hafta 7/Teknolojik Hazırlık Seviyesi/Teknoloji Hazırlık Seviye Belirleme.xlsx>)
@@ -99,6 +101,10 @@ Yazılım Mühendisliği Güncel Konular Finali Kapsamında Yaptığım Güncell
 
 
 -Site Güncellendi.
+
+### Örnek Resimler
+
+![Icon](<Proje Görselleri/icon.png>)
 
 Atalay Berke Cin
 205541052 – Gece B
